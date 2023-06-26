@@ -1,6 +1,5 @@
 import React from "react";
 import HeroImage from "../assets/hero_image.jpg";
-import { Avatar } from "@mui/material";
 
 function Hero() {
   return (
@@ -13,8 +12,11 @@ function Hero() {
             src={HeroImage}
           />
         </div>
-        <div className="flex flex-col items-center justify-center gap-10 2xl:w-[55rem]">
-          <h2 className="text-[3rem] font-bold leading-none text-gray-700 dark:text-white">
+        <div className="flex flex-col items-center justify-center gap-8 2xl:w-[55rem]">
+          <h3 className="text-[2rem]  text-gray-500 dark:text-white">
+            Hello I'm{" "}
+          </h3>
+          <h2 className="text-[3rem] font-bold text-gray-700 dark:text-white">
             Desong Li
           </h2>
           <div className=" mb-4 w-3/4 text-center">

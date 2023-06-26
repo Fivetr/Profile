@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import Contact from "../components/Contact";
+import Contact from "../components/Contact/Contact";
 
 function Home() {
   return (

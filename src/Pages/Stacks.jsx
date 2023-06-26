@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import Footer from "../components/Footer";
-import Contact from "../components/Contact";
-import Skills from "../components/Skills";
+import Contact from "../components/Contact/Contact";
+import Skills from "../components/Skills/Skills";
 
 function Stacks() {
   return (

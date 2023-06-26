@@ -1,5 +1,5 @@
-import Home from "./Pages/Home";
-import Stacks from "./Pages/Stacks";
+import Home from "./pages/Home";
+import Stacks from "./pages/Stacks";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
